@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SessionStateProviderExample", "SessionStateProviderExample\SessionStateProviderExample.ccproj", "{51192DBC-C20F-4E3C-9358-CE8AF9E5FAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{F6C1A158-27D4-4754-949B-966A5630BB71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51192DBC-C20F-4E3C-9358-CE8AF9E5FAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51192DBC-C20F-4E3C-9358-CE8AF9E5FAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51192DBC-C20F-4E3C-9358-CE8AF9E5FAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51192DBC-C20F-4E3C-9358-CE8AF9E5FAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C1A158-27D4-4754-949B-966A5630BB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C1A158-27D4-4754-949B-966A5630BB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C1A158-27D4-4754-949B-966A5630BB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C1A158-27D4-4754-949B-966A5630BB71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

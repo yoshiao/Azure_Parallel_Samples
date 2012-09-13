@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "DiagnosticsExample", "DiagnosticsExample\DiagnosticsExample.ccproj", "{41001C14-9627-4949-A620-C4E84CD14822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{E9EFF638-1967-4E81-876D-1BB52DCFF01E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41001C14-9627-4949-A620-C4E84CD14822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41001C14-9627-4949-A620-C4E84CD14822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41001C14-9627-4949-A620-C4E84CD14822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41001C14-9627-4949-A620-C4E84CD14822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EFF638-1967-4E81-876D-1BB52DCFF01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EFF638-1967-4E81-876D-1BB52DCFF01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EFF638-1967-4E81-876D-1BB52DCFF01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EFF638-1967-4E81-876D-1BB52DCFF01E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

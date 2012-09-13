@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "EnvironmentChangeExample", "EnvironmentChangeExample\EnvironmentChangeExample.ccproj", "{29BB8309-7ACD-4CA5-91F6-3A5C5DAF9BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{ADCAED06-E587-4B8D-9542-2DB3BA8605FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BB8309-7ACD-4CA5-91F6-3A5C5DAF9BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BB8309-7ACD-4CA5-91F6-3A5C5DAF9BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BB8309-7ACD-4CA5-91F6-3A5C5DAF9BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BB8309-7ACD-4CA5-91F6-3A5C5DAF9BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCAED06-E587-4B8D-9542-2DB3BA8605FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCAED06-E587-4B8D-9542-2DB3BA8605FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCAED06-E587-4B8D-9542-2DB3BA8605FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCAED06-E587-4B8D-9542-2DB3BA8605FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

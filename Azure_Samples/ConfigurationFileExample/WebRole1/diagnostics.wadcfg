@@ -1,0 +1,26 @@
+﻿<DiagnosticMonitorConfiguration xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration" configurationChangePollInterval="PT1M" overallQuotaInMB="4096">
+  <DiagnosticInfrastructureLogs bufferQuotaInMB="100" scheduledTransferLogLevelFilter="Verbose" scheduledTransferPeriod="PT1H"/>
+  <WindowsEventLog bufferQuotaInMB="100" scheduledTransferLogLevelFilter="Verbose" scheduledTransferPeriod="PT1H">
+    <DataSource name="Application!*"/>
+  </WindowsEventLog>
+  <Logs bufferQuotaInMB="100" scheduledTransferLogLevelFilter="Verbose" scheduledTransferPeriod="PT1H"/>
+  <Directories bufferQuotaInMB="1024" scheduledTransferPeriod="PT1M">
+
+    <!-- These three elements specify the special directories that are set up for the log types -->
+    <CrashDumps container="wad-crash-dumps" directoryQuotaInMB="256"/>
+    <FailedRequestLogs container="wad-frq" directoryQuotaInMB="256"/>
+    <IISLogs container="wad-iis-test" directoryQuotaInMB="256"/>
+
+    <DataSources>
+      <DirectoryConfiguration container="wad-custom-container" directoryQuotaInMB="20">
+        <!--LocalResource specifies a path relative to a local resource defined in the service definition-->
+        <LocalResource name="CustomLoggingLocation" relativePath="Logs"/>
+      </DirectoryConfiguration>
+    </DataSources>
+  </Directories>
+
+  <PerformanceCounters bufferQuotaInMB="100" scheduledTransferPeriod="PT20M">
+    <!-- The counter specifier is in the same format as the imperative diagnostics configuration API -->
+    <PerformanceCounterConfiguration counterSpecifier="\Processor(_Total)\% Processor Time" sampleRate="PT10S"/>
+  </PerformanceCounters>
+</DiagnosticMonitorConfiguration>

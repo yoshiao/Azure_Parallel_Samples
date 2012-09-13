@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="AzureDriveExample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="WorkerRole1">
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString"/>
+    </ConfigurationSettings>
+    <LocalResources>
+      <LocalStorage name="AzureDriveCache" sizeInMB="50" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
+  </WorkerRole>
+</ServiceDefinition>

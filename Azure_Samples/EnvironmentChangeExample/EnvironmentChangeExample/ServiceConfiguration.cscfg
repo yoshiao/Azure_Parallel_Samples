@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="EnvironmentChangeExample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="WorkerRole1">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <!--<Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />-->
+      <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="EnvironmentChangeString" value="OriginalValue" />
+      <Setting name="SettingRequiringRecycle" value="OriginalValue" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

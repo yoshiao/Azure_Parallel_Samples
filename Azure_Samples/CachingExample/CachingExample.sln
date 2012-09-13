@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CachingExample", "CachingExample\CachingExample.ccproj", "{1F3D9895-85D8-4D85-8992-9AC397444A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{BDDDEE9A-CB81-4CC4-B3D9-AF147C896557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3D9895-85D8-4D85-8992-9AC397444A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3D9895-85D8-4D85-8992-9AC397444A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3D9895-85D8-4D85-8992-9AC397444A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3D9895-85D8-4D85-8992-9AC397444A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDDEE9A-CB81-4CC4-B3D9-AF147C896557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDDEE9A-CB81-4CC4-B3D9-AF147C896557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDDEE9A-CB81-4CC4-B3D9-AF147C896557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDDEE9A-CB81-4CC4-B3D9-AF147C896557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

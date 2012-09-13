@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeploymentBuildOnly>True</DeploymentBuildOnly>
+    <DeploymentAccountName>WindowsAzureAccount</DeploymentAccountName>
+    <DeploymentHostedService>fondava</DeploymentHostedService>
+    <DeploymentHostedServiceLabel>Fondava</DeploymentHostedServiceLabel>
+    <DeploymentSlot>Staging</DeploymentSlot>
+    <DeploymentIncludeIntellitrace>False</DeploymentIncludeIntellitrace>
+    <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
+    <DeploymentStorageService>cairngorm</DeploymentStorageService>
+    <DeploymentStorageServiceLabel>cairngorm</DeploymentStorageServiceLabel>
+    <DeploymentLabel>CachingExample - 5/13/2011 11:41:57 PM</DeploymentLabel>
+    <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
+    <DeploymentIsExpanded>False</DeploymentIsExpanded>
+  </PropertyGroup>
+</Project>

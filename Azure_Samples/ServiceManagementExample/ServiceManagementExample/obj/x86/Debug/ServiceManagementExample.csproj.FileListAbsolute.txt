@@ -1,0 +1,15 @@
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\bin\Debug\ServiceManagementExample.exe.config
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\bin\Debug\ServiceConfiguration.cscfg
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\bin\Debug\ServiceManagementExample.exe
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\bin\Debug\ServiceManagementExample.pdb
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\MainWindow.baml
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\MainWindow.g.cs
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\App.g.cs
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ServiceManagementExample_MarkupCompile.cache
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ServiceManagementExample.g.resources
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ServiceManagementExample.Properties.Resources.resources
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ServiceManagementExample.exe
+D:\eBooks\Azure\2220EN_Code\2220_07_Code\Chapter7\Chapter7\ServiceManagementExample\ServiceManagementExample\obj\x86\Debug\ServiceManagementExample.pdb

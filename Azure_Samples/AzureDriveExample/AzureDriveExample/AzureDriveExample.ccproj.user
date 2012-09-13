@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeploymentBuildOnly>False</DeploymentBuildOnly>
+    <DeploymentAccountName>WindowsAzureAccount</DeploymentAccountName>
+    <DeploymentHostedService>sulasgeir</DeploymentHostedService>
+    <DeploymentHostedServiceLabel>Sula Sgeir</DeploymentHostedServiceLabel>
+    <DeploymentSlot>Production</DeploymentSlot>
+    <DeploymentIncludeIntellitrace>False</DeploymentIncludeIntellitrace>
+    <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
+    <DeploymentStorageService>saintkilda</DeploymentStorageService>
+    <DeploymentStorageServiceLabel>Azure Cookbook</DeploymentStorageServiceLabel>
+    <DeploymentLabel>AzureDriveExample - 6/15/2011 6:14:22 PM</DeploymentLabel>
+    <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
+    <DeploymentIsExpanded>True</DeploymentIsExpanded>
+  </PropertyGroup>
+</Project>

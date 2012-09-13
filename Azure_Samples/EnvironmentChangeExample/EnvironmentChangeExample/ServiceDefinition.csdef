@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="EnvironmentChangeExample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="WorkerRole1">
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString" />
+      <Setting name="EnvironmentChangeString" />
+      <Setting name="SettingRequiringRecycle" />
+    </ConfigurationSettings>
+    <!--<Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>-->
+  </WorkerRole>
+</ServiceDefinition>

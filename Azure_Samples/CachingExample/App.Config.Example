@@ -1,0 +1,18 @@
+  <configSections>
+    <section name="dataCacheClient"
+             type="Microsoft.ApplicationServer.Caching.DataCacheClientSection, Microsoft.ApplicationServer.Caching.Core"
+             allowLocation="true" allowDefinition="Everywhere"/>
+  </configSections>
+
+  <dataCacheClient>
+    <localCache isEnabled="true" sync="TimeoutBased" ttlValue="60" objectCount="100"/>
+    <hosts>
+      <host name="CACHE_NAMESPACE.cache.windows.net" cachePort="22243" />
+    </hosts>
+    <securityProperties mode="Message"  sslEnabled="true" >
+      <messageSecurity
+        authorizationInfo="AUTHENTICATION_TOKEN">
+      </messageSecurity>
+    </securityProperties>
+    <transportProperties maxBufferSize="10000" receiveTimeout="45000"/>
+  </dataCacheClient>

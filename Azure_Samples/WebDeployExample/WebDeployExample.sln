@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WebDeployExample", "WebDeployExample\WebDeployExample.ccproj", "{FB7DAEBC-23DD-41B9-A3D1-62D5D716704B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{E39C1214-09F3-4F57-8F3E-3DE9B16F8697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB7DAEBC-23DD-41B9-A3D1-62D5D716704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7DAEBC-23DD-41B9-A3D1-62D5D716704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7DAEBC-23DD-41B9-A3D1-62D5D716704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7DAEBC-23DD-41B9-A3D1-62D5D716704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39C1214-09F3-4F57-8F3E-3DE9B16F8697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C1214-09F3-4F57-8F3E-3DE9B16F8697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39C1214-09F3-4F57-8F3E-3DE9B16F8697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39C1214-09F3-4F57-8F3E-3DE9B16F8697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

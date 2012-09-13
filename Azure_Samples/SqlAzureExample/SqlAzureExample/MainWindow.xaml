@@ -1,0 +1,10 @@
+﻿<Window x:Class="SqlAzureExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Standard Connection" Height="23" HorizontalAlignment="Left" Margin="40,70,0,0" Name="StandardConnection" VerticalAlignment="Top" Width="120" Click="StandardConnection_Click" />
+        <Button Content="Retry Connection" Height="23" HorizontalAlignment="Left" Margin="40,120,0,0" Name="RetryConnection" VerticalAlignment="Top" Width="120" Click="RetryConnection_Click" />
+        <Button Content="Blob Sharding" Height="23" HorizontalAlignment="Left" Margin="40,170,0,0" Name="BlobSharding" VerticalAlignment="Top" Width="120" Click="BlobSharding_Click" />
+    </Grid>
+</Window>

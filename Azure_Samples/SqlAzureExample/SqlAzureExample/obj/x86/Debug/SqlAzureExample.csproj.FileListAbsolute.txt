@@ -1,0 +1,1 @@
+D:\eBooks\Azure\2220EN_Code\2220_08_Code\Chapter8\Chapter8\SqlAzureExample\SqlAzureExample\bin\Debug\SqlAzureExample.exe.config

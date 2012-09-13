@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="VMRoleExample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <VirtualMachineRole name="VMRole1">
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
+  </VirtualMachineRole>
+</ServiceDefinition>

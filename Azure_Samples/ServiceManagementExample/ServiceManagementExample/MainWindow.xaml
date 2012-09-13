@@ -1,0 +1,11 @@
+﻿<Window x:Class="ServiceManagementExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Get Properties" Height="23" HorizontalAlignment="Left" Margin="70,50,0,0" Name="GetProperties" VerticalAlignment="Top" Width="120" Click="GetProperties_Click" />
+        <Button Content="Create Service" Height="23" HorizontalAlignment="Left" Margin="70,100,0,0" Name="CreateService" VerticalAlignment="Top" Width="120" Click="CreateService_Click" />
+        <Button Content="Create Deployment" Height="23" HorizontalAlignment="Left" Margin="270,50,0,0" Name="DeployService" VerticalAlignment="Top" Width="120" Click="CreateDeployment_Click" />
+        <Button Content="Upgrade Deployment" Height="23" HorizontalAlignment="Left" Margin="270,100,0,0" Name="UpgradeDeployment" VerticalAlignment="Top" Width="120" Click="UpgradeDeployment_Click" />
+    </Grid>
+</Window>

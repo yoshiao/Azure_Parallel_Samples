@@ -1,0 +1,30 @@
+﻿<Window x:Class="AzureDataMarketExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="700">
+    <Grid Height="600" Width="700">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="Country Information (Fixed Query)" FontSize="20" Grid.Row="0" Margin="30,0,0,0"/>
+        <DataGrid AutoGenerateColumns="False" Height="200" HorizontalAlignment="Left" Grid.Row="1"  Margin="30,0,0,0" Name="WorldBank" VerticalAlignment="Top" Width="600"  ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}"/>
+                <DataGridTextColumn Header="Iso Code" Binding="{Binding Path=CodeIso3Letter}"/>
+                <DataGridTextColumn Header="Capital" Binding="{Binding Path=CapitalCity}"/>
+                <DataGridTextColumn Header="Region" Binding="{Binding Path=RegionName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Imports of Goods in FY95 (Flexible Query)" FontSize="20" Grid.Row="2"  Margin="30,0,0,0"/>
+        <DataGrid AutoGenerateColumns="False" Height="200" HorizontalAlignment="Left" Grid.Row="3"  Margin="30,0,0,0" Name="UnitedNations" VerticalAlignment="Top" Width="450" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Country" Binding="{Binding Path=CountryName}"/>
+                <DataGridTextColumn Header="Currency" Binding="{Binding Path=Currency}"/>
+                <DataGridTextColumn Header="Value" Binding="{Binding Path=Value}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

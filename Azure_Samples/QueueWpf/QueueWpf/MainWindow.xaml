@@ -1,0 +1,13 @@
+﻿<Window x:Class="QueueWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chapter 4 - Disconnecting With Azure Queues" Height="350" Width="525">
+    <Grid>
+        <Button Content="Add messages" Height="23" HorizontalAlignment="Left" Margin="50,50,0,0" Name="AddMessages" VerticalAlignment="Top" Width="100" Click="AddMessages_Click" />
+        <Button Content="Backoff" Height="23" HorizontalAlignment="Left" Margin="50,100,0,0" Name="Backoff" VerticalAlignment="Top" Width="100" Click="Backoff_Click" />
+        <Button Content="Create queue" Height="23" HorizontalAlignment="Left" Margin="50,150,0,0" Name="CreateQueue" VerticalAlignment="Top" Width="100" Click="CreateQueue_Click" />
+        <Button Content="Get messages" Height="23" HorizontalAlignment="Left" Margin="250,50,0,0" Name="GetMessages" VerticalAlignment="Top" Width="100" Click="GetMessages_Click" />
+        <Button Content="Large data" Height="23" HorizontalAlignment="Left" Margin="250,100,0,0" Name="LargeData" VerticalAlignment="Top" Width="100" Click="LargeData_Click" />
+        <Button Content="Poison messages" Height="23" HorizontalAlignment="Left" Margin="250,150,0,0" Name="PoisonMessages" VerticalAlignment="Top" Width="100" Click="PoisonMessages_Click" />
+    </Grid>
+</Window>

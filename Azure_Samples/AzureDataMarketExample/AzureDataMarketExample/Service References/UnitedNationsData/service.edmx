@@ -1,0 +1,60 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:dr="http://schemas.microsoft.com/dallas/2010/04">
+  <edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="1.0">
+    <Schema Namespace="UnitedNations.NationalAccounts" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2007/05/edm">
+      <EntityType Name="DataSeries">
+        <Key>
+          <PropertyRef Name="Id" />
+        </Key>
+        <Property Name="Id" Type="Edm.String" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="DataSetId" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Name" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+      </EntityType>
+      <EntityType Name="Footnotes">
+        <Key>
+          <PropertyRef Name="UniqueId" />
+        </Key>
+        <Property Name="UniqueId" Type="Edm.String" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SequenceId" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Id" Type="Edm.Int32" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Text" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+      </EntityType>
+      <EntityType Name="Values">
+        <Key>
+          <PropertyRef Name="BaseYear" />
+          <PropertyRef Name="CountryCode" />
+          <PropertyRef Name="DataSeriesId" />
+          <PropertyRef Name="FiscalYear" />
+          <PropertyRef Name="ItemCode" />
+          <PropertyRef Name="Series" />
+          <PropertyRef Name="SNA93ItemCode" />
+          <PropertyRef Name="SNA93TableCode" />
+          <PropertyRef Name="SNASystem" />
+          <PropertyRef Name="SubItemCode" />
+        </Key>
+        <Property Name="DataSeriesId" Type="Edm.String" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="CountryCode" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="CountryName" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SNA93TableCode" Type="Edm.Double" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SubGroup" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="ItemCode" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Item" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SNA93ItemCode" Type="Edm.String" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="FiscalYear" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Series" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Currency" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SNASystem" Type="Edm.Byte" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="FiscalYearType" Type="Edm.String" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="BaseYear" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="SubItemCode" Type="Edm.Int16" Nullable="false" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="sub_item_english_name" Type="Edm.Int16" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="Value" Type="Edm.Single" Nullable="true" dr:Queryable="true" dr:Returned="true" />
+        <Property Name="FootnoteSequenceId" Type="Edm.String" Nullable="true" dr:Queryable="false" dr:Returned="true" />
+      </EntityType>
+      <EntityContainer Name="UnitedNationsNationalAccountsContainer" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="DataSeries" EntityType="UnitedNations.NationalAccounts.DataSeries" />
+        <EntitySet Name="Footnotes" EntityType="UnitedNations.NationalAccounts.Footnotes" />
+        <EntitySet Name="Values" EntityType="UnitedNations.NationalAccounts.Values" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

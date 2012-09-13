@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeploymentBuildOnly>False</DeploymentBuildOnly>
+    <DeploymentAccountName>AzureMgmt</DeploymentAccountName>
+    <DeploymentHostedService>sulasgeir</DeploymentHostedService>
+    <DeploymentHostedServiceLabel>Sula Sgeir</DeploymentHostedServiceLabel>
+    <DeploymentSlot>Staging</DeploymentSlot>
+    <DeploymentIncludeIntellitrace>False</DeploymentIncludeIntellitrace>
+    <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
+    <DeploymentStorageService>saintkilda</DeploymentStorageService>
+    <DeploymentStorageServiceLabel>Azure Cookbook</DeploymentStorageServiceLabel>
+    <DeploymentLabel>SessionStateProviderExample - 2/16/2011 1:15:10 PM</DeploymentLabel>
+    <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
+    <DeploymentIsExpanded>False</DeploymentIsExpanded>
+  </PropertyGroup>
+</Project>
